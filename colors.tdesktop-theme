@@ -1,10 +1,9 @@
 bg: #101010;
-bg0_h:      #1c1c1c;
+bg0_h: #1c1c1c;
+gray: #282828;
 
 overlay: #1d202180;
 overlay_hard: #1d2021c0;
-
-gray: #282828;
 
 fg:       #d78701;
 
@@ -14,7 +13,7 @@ yellow: #d78701;
 blue:   #458588;
 purple: #b16286;
 aqua:   #98971a;
-orange: #d78701;
+orange: #d65d0e;
 
 none: #00000000;
 
@@ -69,10 +68,10 @@ filterInputBorderFg: gray; // default rounded input field border (like in chats 
 filterInputInactiveBg: bg0_h; // default rounded input field background (like in chats list search field when field is inactive)
 filterInputActiveBg: filterInputInactiveBg; // default rounded input field active background (like in chats list search field when field is focused)
 
-activeButtonBg: orange; // default active button background
-activeButtonBgOver: orange; // default active button background with mouse over
+activeButtonBg: yellow; // default active button background
+activeButtonBgOver: yellow; // default active button background with mouse over
 activeButtonBgRipple: windowBgRipple; // default active button ripple effect
-activeButtonFg: bg; // default active button text
+activeButtonFg: bg0_h; // default active button text
 activeButtonFgOver: activeButtonFg; // default active button text with mouse over
 activeButtonSecondaryFg: fg; // default active button additional text (selected messages counter in forward / delete buttons)
 activeButtonSecondaryFgOver: activeButtonSecondaryFg; // default active button additional text with mouse over
