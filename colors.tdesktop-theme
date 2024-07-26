@@ -4,7 +4,7 @@ bg0_h:      #1c1c1c;
 overlay: #1d202180;
 overlay_hard: #1d2021c0;
 
-neutral_gray: #282828;
+gray: #282828;
 
 fg:       #d78701;
 
@@ -49,7 +49,7 @@ mainMenuCloudBg: fg; //
 menuBg: windowBg; // default popup menu background
 menuBgOver: windowBgOver; // default popup menu item background with mouse over
 menuBgRipple: windowBgRipple; // default popup menu item ripple effect
-menuIconFg: neutral_gray; // default popup menu item icon (like main menu)
+menuIconFg: gray; // default popup menu item icon (like main menu)
 menuIconFgOver: fg; // default popup menu item icon with mouse over
 menuSubmenuArrowFg: windowFg; // default popup menu submenu arrow icon (like in message field context menu in case of RTL system language)
 menuFgDisabled: bg0_h; // default popup menu item disabled text (like unavailable items in message field context menu)
@@ -63,9 +63,9 @@ checkboxFg: menuIconFg; // default unchecked checkbox rounded rectangle (and als
 activeLineFg: fg; // default active line (like code input field bottom border when you log in and field is focused)
 activeLineFgError: red; // default active line for error state (like code input field bottom border when you log in and you've entered incorrect code)
 inputBorderFg: bg0_h; // default input field bottom border (like in code input field when you log in and field is not focused)
-placeholderFg: neutral_gray; // default input field placeholder when field is not focused (like in phone input field when you log in)
+placeholderFg: gray; // default input field placeholder when field is not focused (like in phone input field when you log in)
 placeholderFgActive: bg0_h; // default input field placeholder when field is focused
-filterInputBorderFg: neutral_gray; // default rounded input field border (like in chats list search field when field is focused)
+filterInputBorderFg: gray; // default rounded input field border (like in chats list search field when field is focused)
 filterInputInactiveBg: bg0_h; // default rounded input field background (like in chats list search field when field is inactive)
 filterInputActiveBg: filterInputInactiveBg; // default rounded input field active background (like in chats list search field when field is focused)
 
@@ -101,16 +101,16 @@ sliderBgInactive: bg0_h; // default slider not active bar (like in Settings when
 sliderBgActive: windowActiveTextFg; // default slider active bar (like in Settings when you choose interface scale or custom notifications count)
 
 dialogsBg: windowBg; // chat list background
-dialogsDateFg: neutral_gray; // chat list date text
+dialogsDateFg: gray; // chat list date text
 dialogsNameFg: fg; // chat list name text
 dialogsTextFg: fg; // chat list message text
 dialogsTextFgService: yellow; // chat list group sender name text (or media message type text)
 dialogsRippleBg: windowBgRipple; // chat list ripple effect (on mouse down)
 dialogsUnreadBg: red; // chat list unread badge background for not muted chat
-dialogsUnreadBgMuted: neutral_gray; // chat list unread badge background for muted chat
+dialogsUnreadBgMuted: gray; // chat list unread badge background for muted chat
 dialogsUnreadFg: fg; // chat list unread badge text
 dialogsDraftFg: red; // chat list draft label
-dialogsSendingIconFg: neutral_gray; // chat list sending message icon (clock)
+dialogsSendingIconFg: gray; // chat list sending message icon (clock)
 dialogsSentIconFg: yellow; // chat list sent message tick / double tick icon
 dialogsOnlineBadgeFg: green; // chat list online status
 
@@ -151,12 +151,12 @@ boxTitleCloseFg: smallCloseIconFg; // settings close icon and box search cancel 
 boxTitleCloseFgOver: smallCloseIconFgOver; // settings close icon and box search cancel icon (like in contacts box) with mouse over
 
 msgInBg: bg0_h; // inbox message background
-msgInDateFg: neutral_gray; // inbox message time text
+msgInDateFg: gray; // inbox message time text
 msgInShadow: windowShadowFg; // inbox message shadow (below the bubble)
 msgInMonoFg: green; // inbox message monospace text (like a message sent with `test` text)
 
 msgOutBg: bg0_h; // outbox message background
-msgOutDateFg: neutral_gray; // outbox message time text
+msgOutDateFg: gray; // outbox message time text
 msgOutShadow: windowShadowFg; // outbox message shadow (below the bubble)
 msgOutMonoFg: green; // outbox message monospace text
 
@@ -238,7 +238,7 @@ historyPeer2UserpicBg: green; // green userpic background
 historyPeer3NameFg: yellow; // yellow group member name
 historyPeer3UserpicBg: yellow; // yellow userpic background
 historyPeer4NameFg: fg; // blue group member name
-historyPeer4UserpicBg: neutral_gray; // blue userpic background
+historyPeer4UserpicBg: gray; // blue userpic background
 historyPeer5NameFg: purple; // purple group member name
 historyPeer5UserpicBg: purple; // purple userpic background
 historyPeer6NameFg: blue; // pink group member name
@@ -360,7 +360,7 @@ statisticsChartLineBlue: red; // syntax highlight: atrule, attr-value, keyword, 
 statisticsChartLineRed: purple; // syntax highlight: property, tag, boolean, number, constant, symbol, deleted, operator, entity, url, punctuation
 statisticsChartLineOrange: yellow; // syntax highlight: selector, attr-name, string, char, builtin, inserted
 statisticsChartLinePurple: orange; // syntax highlight: class-name
-statisticsChartLineLightblue: neutral_gray; // syntax highlight: comment, block-comment, prolog, doctype, cdata
+statisticsChartLineLightblue: gray; // syntax highlight: comment, block-comment, prolog, doctype, cdata
 
 statisticsChartLineGreen: green; // syntax highlight: none
 statisticsChartLineLightgreen: green; // syntax highlight: none
