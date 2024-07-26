@@ -19,50 +19,18 @@ fg3:      #d79921;
 fg4:      #d79921;
 
 red:    #cc241d;
-bright_green:  #98971a;
-bright_yellow: #d79921;
-bright_blue:   #458588;
-bright_purple: #b16286;
-bright_aqua:   #689d6a;
-bright_orange: #d65d0e;
-
-red:    #cc241d;
-neutral_green:  #98971a;
-neutral_yellow: #d79921;
-neutral_blue:   #458588;
-neutral_purple: #b16286;
-neutral_aqua:   #689d6a;
-neutral_orange: #d65d0e;
-
-red:    #cc241d;
-faded_green:  #98971a;
-faded_yellow: #d79921;
-faded_blue:   #458588;
-faded_purple: #b16286;
-faded_aqua:   #689d6a;
-faded_orange: #d65d0e;
+green:  #98971a;
+yellow: #d79921;
+blue:   #458588;
+purple: #b16286;
+aqua:   #689d6a;
+orange: #d65d0e;
 
 // sainnhe/gruvbox-material
 
-red:    #cc241d;
-mix_green:  #98971a;
-mix_yellow: #d79921;
-mix_blue:   #458588;
-mix_purple: #b16286;
-mix_aqua:   #689d6a;
-mix_orange: #d65d0e;
-
-material_red:    #cc241d;
-material_green:  #98971a;
-material_yellow: #d79921;
-material_blue:   #458588;
-material_purple: #b16286;
-material_aqua:   #689d6a;
-material_orange: #d65d0e;
-
 none: #00000000;
 
-windowActiveTextFg: bright_orange; // fallback for active text like online status
+windowActiveTextFg: orange; // fallback for active text like online status
 windowBg: bg0_hard; // fallback for background
 windowBgActive: windowActiveTextFg; // fallback for filled active areas
 windowBgOver: bg0_soft; // fallback for background with mouse over
@@ -113,8 +81,8 @@ filterInputBorderFg: neutral_gray; // default rounded input field border (like i
 filterInputInactiveBg: bg1; // default rounded input field background (like in chats list search field when field is inactive)
 filterInputActiveBg: filterInputInactiveBg; // default rounded input field active background (like in chats list search field when field is focused)
 
-activeButtonBg: neutral_orange; // default active button background
-activeButtonBgOver: bright_orange; // default active button background with mouse over
+activeButtonBg: orange; // default active button background
+activeButtonBgOver: orange; // default active button background with mouse over
 activeButtonBgRipple: windowBgRipple; // default active button ripple effect
 activeButtonFg: fg; // default active button text
 activeButtonFgOver: activeButtonFg; // default active button text with mouse over
@@ -134,7 +102,7 @@ attentionButtonBgRipple: windowBgRipple; // default attention button ripple effe
 /*outlineButtonOutlineFg:#3983c3; // default left outlined button left outline border*/
 /*outlineButtonBgRipple: windowBgRipple; // default left outlined button ripple effect*/
 
-callArrowFg: bright_green; // received phone call arrow (in calls list box)
+callArrowFg: green; // received phone call arrow (in calls list box)
 callArrowMissedFg: red; // missed phone call arrow (in calls list box)
 
 tooltipBg: menuBg; // tooltip background (like when you put mouse over the message timestamp and wait)
@@ -148,15 +116,15 @@ dialogsBg: windowBg; // chat list background
 dialogsDateFg: neutral_gray; // chat list date text
 dialogsNameFg: fg1; // chat list name text
 dialogsTextFg: fg4; // chat list message text
-dialogsTextFgService: bright_yellow; // chat list group sender name text (or media message type text)
+dialogsTextFgService: yellow; // chat list group sender name text (or media message type text)
 dialogsRippleBg: windowBgRipple; // chat list ripple effect (on mouse down)
 dialogsUnreadBg: red; // chat list unread badge background for not muted chat
 dialogsUnreadBgMuted: neutral_gray; // chat list unread badge background for muted chat
 dialogsUnreadFg: fg; // chat list unread badge text
 dialogsDraftFg: red; // chat list draft label
 dialogsSendingIconFg: neutral_gray; // chat list sending message icon (clock)
-dialogsSentIconFg: bright_yellow; // chat list sent message tick / double tick icon
-dialogsOnlineBadgeFg: bright_green; // chat list online status
+dialogsSentIconFg: yellow; // chat list sent message tick / double tick icon
+dialogsOnlineBadgeFg: green; // chat list online status
 
 dialogsBgOver: windowBgOver; // chat list background with mouse over
 dialogsDateFgOver: dialogsDateFg; // chat list date text with mouse over
@@ -186,7 +154,7 @@ dialogsOnlineBadgeFgActive: dialogsOnlineBadgeFg; // chat list online status for
 
 boxBg: windowBg; // box background
 boxTextFg: windowFg; // box text
-boxTextFgGood: bright_green; // accepted box text (like when choosing username that is not occupied)
+boxTextFgGood: green; // accepted box text (like when choosing username that is not occupied)
 boxTextFgError: red; // rejecting box text (like when choosing username that is occupied)
 boxTitleFg: windowFg; // box title text
 boxSearchBg: filterInputInactiveBg; // box search field background (like in contacts box)
@@ -206,7 +174,7 @@ msgOutMonoFg: fg4; // outbox message monospace text
 
 msgServiceFg: fg1; // service message text (like date dividers or service message about the group title being changed)
 msgServiceBg: bg1; // service message background (like in a service message about group title being changed) (adjusted)
-msgInServiceFg: bright_orange; // inbox message information text (like information about a forwarded message original sender)
+msgInServiceFg: orange; // inbox message information text (like information about a forwarded message original sender)
 msgOutServiceFg: msgInServiceFg; // outbox message information text (like information about a forwarded message original sender)
 msgInReplyBarColor: msgInServiceFg; // inbox message reply outline
 msgOutReplyBarColor: msgOutServiceFg; // outbox message reply outline
@@ -220,13 +188,13 @@ msgDateImgBg: overlay_hard; // media message time bubble background (like time b
 
 msgFileInBg: bg2; // inbox audio file download circle background
 msgFileOutBg: bg4; // outbox audio file download circle background
-msgFile1Bg: material_blue; // blue shared links / files without image square thumbnail
+msgFile1Bg: blue; // blue shared links / files without image square thumbnail
 msgFile1BgDark: msgFile1Bg; // blue shared files without image download circle background
-msgFile2Bg: material_aqua; // green shared links / shared files without image square thumbnail
+msgFile2Bg: aqua; // green shared links / shared files without image square thumbnail
 msgFile2BgDark: msgFile2Bg; // green shared files without image download circle background
-msgFile3Bg: material_red; // red shared links / shared files without image square thumbnail
+msgFile3Bg: red; // red shared links / shared files without image square thumbnail
 msgFile3BgDark: msgFile3Bg; // red shared files without image download circle background
-msgFile4Bg: material_yellow; // yellow shared links / shared files without image square thumbnail
+msgFile4Bg: yellow; // yellow shared links / shared files without image square thumbnail
 msgFile4BgDark: msgFile4Bg; // yellow shared files without image download circle background
 
 msgFileInBgOver: msgFileInBg; // inbox audio file download circle background with mouse over
@@ -276,21 +244,21 @@ historyCallArrowMissedInFg: callArrowMissedFg; // missed phone call arrow
 historyCallArrowOutFg: historyTextInFg; // outgoing phone call arrow
 
 historyPeer1NameFg: red; // red group member name
-historyPeer1UserpicBg: material_red; // red userpic background
-historyPeer2NameFg: bright_green; // green group member name
-historyPeer2UserpicBg: material_green; // green userpic background
-historyPeer3NameFg: bright_yellow; // yellow group member name
-historyPeer3UserpicBg: material_yellow; // yellow userpic background
+historyPeer1UserpicBg: red; // red userpic background
+historyPeer2NameFg: green; // green group member name
+historyPeer2UserpicBg: green; // green userpic background
+historyPeer3NameFg: yellow; // yellow group member name
+historyPeer3UserpicBg: yellow; // yellow userpic background
 historyPeer4NameFg: fg4; // blue group member name
 historyPeer4UserpicBg: neutral_gray; // blue userpic background
-historyPeer5NameFg: bright_purple; // purple group member name
-historyPeer5UserpicBg: material_purple; // purple userpic background
-historyPeer6NameFg: bright_blue; // pink group member name
-historyPeer6UserpicBg: material_blue; // pink userpic background
-historyPeer7NameFg: bright_aqua; // aqua group member name
-historyPeer7UserpicBg: material_aqua; // aqua userpic background
-historyPeer8NameFg: bright_orange; // orange group member name
-historyPeer8UserpicBg: material_orange; // orange userpic background
+historyPeer5NameFg: purple; // purple group member name
+historyPeer5UserpicBg: purple; // purple userpic background
+historyPeer6NameFg: blue; // pink group member name
+historyPeer6UserpicBg: blue; // pink userpic background
+historyPeer7NameFg: aqua; // aqua group member name
+historyPeer7UserpicBg: aqua; // aqua userpic background
+historyPeer8NameFg: orange; // orange group member name
+historyPeer8UserpicBg: orange; // orange userpic background
 historyPeerUserpicFg: fg0; // default userpic initials
 
 historyPinnedBg: msgInBg; // pinned message area background
@@ -401,13 +369,13 @@ sideBarTextFgActive: windowActiveTextFg; // filters side bar active item text
 sideBarIconFgActive: windowActiveTextFg; // filters side bar active item icon
 
 statisticsChartLineBlue: red; // syntax highlight: atrule, attr-value, keyword, function
-statisticsChartLineRed: bright_purple; // syntax highlight: property, tag, boolean, number, constant, symbol, deleted, operator, entity, url, punctuation
-statisticsChartLineOrange: bright_yellow; // syntax highlight: selector, attr-name, string, char, builtin, inserted
-statisticsChartLinePurple: bright_orange; // syntax highlight: class-name
+statisticsChartLineRed: purple; // syntax highlight: property, tag, boolean, number, constant, symbol, deleted, operator, entity, url, punctuation
+statisticsChartLineOrange: yellow; // syntax highlight: selector, attr-name, string, char, builtin, inserted
+statisticsChartLinePurple: orange; // syntax highlight: class-name
 statisticsChartLineLightblue: neutral_gray; // syntax highlight: comment, block-comment, prolog, doctype, cdata
 
-statisticsChartLineGreen: neutral_green; // syntax highlight: none
-statisticsChartLineLightgreen: neutral_green; // syntax highlight: none
-statisticsChartLineGolden: neutral_yellow; // syntax highlight: none
-statisticsChartLineIndigo: neutral_purple; // syntax highlight: none
-statisticsChartLineCyan: neutral_aqua; // syntax highlight: none
+statisticsChartLineGreen: green; // syntax highlight: none
+statisticsChartLineLightgreen: green; // syntax highlight: none
+statisticsChartLineGolden: yellow; // syntax highlight: none
+statisticsChartLineIndigo: purple; // syntax highlight: none
+statisticsChartLineCyan: aqua; // syntax highlight: none
