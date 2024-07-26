@@ -18,7 +18,7 @@ fg2:      #d79921;
 fg3:      #d79921;
 fg4:      #d79921;
 
-bright_red:    #cc241d;
+red:    #cc241d;
 bright_green:  #98971a;
 bright_yellow: #d79921;
 bright_blue:   #458588;
@@ -26,7 +26,7 @@ bright_purple: #b16286;
 bright_aqua:   #689d6a;
 bright_orange: #d65d0e;
 
-neutral_red:    #cc241d;
+red:    #cc241d;
 neutral_green:  #98971a;
 neutral_yellow: #d79921;
 neutral_blue:   #458588;
@@ -34,7 +34,7 @@ neutral_purple: #b16286;
 neutral_aqua:   #689d6a;
 neutral_orange: #d65d0e;
 
-faded_red:    #cc241d;
+red:    #cc241d;
 faded_green:  #98971a;
 faded_yellow: #d79921;
 faded_blue:   #458588;
@@ -44,7 +44,7 @@ faded_orange: #d65d0e;
 
 // sainnhe/gruvbox-material
 
-mix_red:    #cc241d;
+red:    #cc241d;
 mix_green:  #98971a;
 mix_yellow: #d79921;
 mix_blue:   #458588;
@@ -105,7 +105,7 @@ smallCloseIconFgOver: menuIconFgOver; // small X icon with mouse over
 checkboxFg: menuIconFg; // default unchecked checkbox rounded rectangle (and also emoji category icons)
 
 activeLineFg: fg2; // default active line (like code input field bottom border when you log in and field is focused)
-activeLineFgError: bright_red; // default active line for error state (like code input field bottom border when you log in and you've entered incorrect code)
+activeLineFgError: red; // default active line for error state (like code input field bottom border when you log in and you've entered incorrect code)
 inputBorderFg: bg4; // default input field bottom border (like in code input field when you log in and field is not focused)
 placeholderFg: neutral_gray; // default input field placeholder when field is not focused (like in phone input field when you log in)
 placeholderFgActive: bg4; // default input field placeholder when field is focused
@@ -125,7 +125,7 @@ lightButtonBgOver: menuBgOver; // default light button background with mouse ove
 lightButtonFg: fg1; // default light button text
 lightButtonFgOver: lightButtonFg; // default light button text with mouse over
 lightButtonBgRipple: windowBgRipple; // default light button ripple effect
-attentionButtonFg: bright_red; // default attention button text (like confirm button on log out)
+attentionButtonFg: red; // default attention button text (like confirm button on log out)
 attentionButtonFgOver: attentionButtonFg; // default attention button text with mouse over
 attentionButtonBgOver: lightButtonBgOver; // default attention button background with mouse over
 attentionButtonBgRipple: windowBgRipple; // default attention button ripple effect
@@ -135,7 +135,7 @@ attentionButtonBgRipple: windowBgRipple; // default attention button ripple effe
 /*outlineButtonBgRipple: windowBgRipple; // default left outlined button ripple effect*/
 
 callArrowFg: bright_green; // received phone call arrow (in calls list box)
-callArrowMissedFg: bright_red; // missed phone call arrow (in calls list box)
+callArrowMissedFg: red; // missed phone call arrow (in calls list box)
 
 tooltipBg: menuBg; // tooltip background (like when you put mouse over the message timestamp and wait)
 tooltipFg: windowFg; // tooltip text
@@ -150,10 +150,10 @@ dialogsNameFg: fg1; // chat list name text
 dialogsTextFg: fg4; // chat list message text
 dialogsTextFgService: bright_yellow; // chat list group sender name text (or media message type text)
 dialogsRippleBg: windowBgRipple; // chat list ripple effect (on mouse down)
-dialogsUnreadBg: bright_red; // chat list unread badge background for not muted chat
+dialogsUnreadBg: red; // chat list unread badge background for not muted chat
 dialogsUnreadBgMuted: neutral_gray; // chat list unread badge background for muted chat
 dialogsUnreadFg: fg; // chat list unread badge text
-dialogsDraftFg: bright_red; // chat list draft label
+dialogsDraftFg: red; // chat list draft label
 dialogsSendingIconFg: neutral_gray; // chat list sending message icon (clock)
 dialogsSentIconFg: bright_yellow; // chat list sent message tick / double tick icon
 dialogsOnlineBadgeFg: bright_green; // chat list online status
@@ -187,7 +187,7 @@ dialogsOnlineBadgeFgActive: dialogsOnlineBadgeFg; // chat list online status for
 boxBg: windowBg; // box background
 boxTextFg: windowFg; // box text
 boxTextFgGood: bright_green; // accepted box text (like when choosing username that is not occupied)
-boxTextFgError: bright_red; // rejecting box text (like when choosing username that is occupied)
+boxTextFgError: red; // rejecting box text (like when choosing username that is occupied)
 boxTitleFg: windowFg; // box title text
 boxSearchBg: filterInputInactiveBg; // box search field background (like in contacts box)
 boxTitleAdditionalFg: fg4; // box title additional text (like in create group box when you see chosen members count)
@@ -275,7 +275,7 @@ historyCallArrowInFg: callArrowFg; // received phone call arrow
 historyCallArrowMissedInFg: callArrowMissedFg; // missed phone call arrow
 historyCallArrowOutFg: historyTextInFg; // outgoing phone call arrow
 
-historyPeer1NameFg: bright_red; // red group member name
+historyPeer1NameFg: red; // red group member name
 historyPeer1UserpicBg: material_red; // red userpic background
 historyPeer2NameFg: bright_green; // green group member name
 historyPeer2UserpicBg: material_green; // green userpic background
@@ -361,7 +361,7 @@ historyFileOutRadialFgSelected: historyFileOutRadialFg; // outbox selected file 
 historyFileThumbIconFgSelected: historyFileThumbIconFg;// selected file with thumbnail (or photo / video) download arrow icon
 historyFileThumbRadialFgSelected: historyFileThumbRadialFg; // selected file with thumbnail (or photo / video) radial download animation line
 
-profileAdminStartFg: bright_red; // group members list admin star icon
+profileAdminStartFg: red; // group members list admin star icon
 
 overviewPhotoSelectOverlay: overlay; // shared photos / videos / links fill for selected rows
 
@@ -392,7 +392,7 @@ sideBarTextFg: fg4; // filters side bar text
 sideBarBg: bg0_hard; // filters side bar background
 sideBarBgRipple: windowBgRipple; // filters side bar ripple effect
 sideBarIconFg: menuIconFg; // filters side bar icon
-sideBarBadgeBg: bright_red; // filters side bar badge background
+sideBarBadgeBg: red; // filters side bar badge background
 sideBarBadgeBgMuted: sideBarIconFg; // filters side bar unimportant badge background
 
 sideBarBgActive: dialogsBgActive; // filters side bar active background
@@ -400,7 +400,7 @@ sideBarTextFg: sideBarTextFg; // filters side bar text
 sideBarTextFgActive: windowActiveTextFg; // filters side bar active item text
 sideBarIconFgActive: windowActiveTextFg; // filters side bar active item icon
 
-statisticsChartLineBlue: bright_red; // syntax highlight: atrule, attr-value, keyword, function
+statisticsChartLineBlue: red; // syntax highlight: atrule, attr-value, keyword, function
 statisticsChartLineRed: bright_purple; // syntax highlight: property, tag, boolean, number, constant, symbol, deleted, operator, entity, url, punctuation
 statisticsChartLineOrange: bright_yellow; // syntax highlight: selector, attr-name, string, char, builtin, inserted
 statisticsChartLinePurple: bright_orange; // syntax highlight: class-name
