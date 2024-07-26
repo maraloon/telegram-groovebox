@@ -17,13 +17,13 @@ orange: #d65d0e;
 
 none: #00000000;
 
-windowActiveTextFg: orange; // fallback for active text like online status
+windowActiveTextFg: yellow; // fallback for active text like online status
 windowBg: bg; // fallback for background
 windowBgActive: windowActiveTextFg; // fallback for filled active areas
 windowBgOver: bg0_h; // fallback for background with mouse over
 windowBgRipple: none; // fallback for ripple effect
 windowFg: fg; // fallback for text
-windowFgActive: fg; // fallback for text on active areas
+windowFgActive: bg0_h; // fallback for text on active areas
 windowFgOver: fg; // fallback for text with mouse over
 windowBoldFg: windowFg; // fallback for bold text
 windowBoldFgOver: windowBoldFg; // fallback for bold text with mouse over
@@ -161,7 +161,7 @@ msgOutMonoFg: green; // outbox message monospace text
 
 msgServiceFg: fg; // service message text (like date dividers or service message about the group title being changed)
 msgServiceBg: bg0_h; // service message background (like in a service message about group title being changed) (adjusted)
-msgInServiceFg: orange; // inbox message information text (like information about a forwarded message original sender)
+msgInServiceFg: aqua; // inbox message information text (like information about a forwarded message original sender)
 msgOutServiceFg: msgInServiceFg; // outbox message information text (like information about a forwarded message original sender)
 msgInReplyBarColor: msgInServiceFg; // inbox message reply outline
 msgOutReplyBarColor: msgOutServiceFg; // outbox message reply outline
