@@ -26,8 +26,6 @@ purple: #b16286;
 aqua:   #98971a;
 orange: #d78701;
 
-// sainnhe/gruvbox-material
-
 none: #00000000;
 
 windowActiveTextFg: orange; // fallback for active text like online status
@@ -163,14 +161,14 @@ boxTitleCloseFg: smallCloseIconFg; // settings close icon and box search cancel 
 boxTitleCloseFgOver: smallCloseIconFgOver; // settings close icon and box search cancel icon (like in contacts box) with mouse over
 
 msgInBg: bg0_soft; // inbox message background
-msgInDateFg: fg4; // inbox message time text
+msgInDateFg: neutral_gray; // inbox message time text
 msgInShadow: windowShadowFg; // inbox message shadow (below the bubble)
-msgInMonoFg: fg4; // inbox message monospace text (like a message sent with `test` text)
+msgInMonoFg: green; // inbox message monospace text (like a message sent with `test` text)
 
 msgOutBg: bg2; // outbox message background
-msgOutDateFg: fg4; // outbox message time text
+msgOutDateFg: neutral_gray; // outbox message time text
 msgOutShadow: windowShadowFg; // outbox message shadow (below the bubble)
-msgOutMonoFg: fg4; // outbox message monospace text
+msgOutMonoFg: green; // outbox message monospace text
 
 msgServiceFg: fg1; // service message text (like date dividers or service message about the group title being changed)
 msgServiceBg: bg1; // service message background (like in a service message about group title being changed) (adjusted)
@@ -333,7 +331,7 @@ profileAdminStartFg: red; // group members list admin star icon
 
 overviewPhotoSelectOverlay: overlay; // shared photos / videos / links fill for selected rows
 
-titleBg: bg0; // window title background when window is inactive
+titleBg: bg0_hard; // window title background when window is inactive
 titleBgActive: titleBg; // window title background when window is active
 titleShadow: windowShadowFg;
 titleButtonBg: none; // custom window title minimize/maximize/restore button background when window is inactive (Windows only)
