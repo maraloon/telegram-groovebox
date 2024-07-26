@@ -1,6 +1,8 @@
 bg: #101010;
 bg0_h: #1c1c1c;
 gray: #282828;
+bg2: #504945;
+
 
 overlay: #1d202180;
 overlay_hard: #1d2021c0;
@@ -100,10 +102,10 @@ sliderBgInactive: bg0_h; // default slider not active bar (like in Settings when
 sliderBgActive: windowActiveTextFg; // default slider active bar (like in Settings when you choose interface scale or custom notifications count)
 
 dialogsBg: windowBg; // chat list background
-dialogsDateFg: gray; // chat list date text
+dialogsDateFg: bg2; // chat list date text
 dialogsNameFg: fg; // chat list name text
-dialogsTextFg: fg; // chat list message text
-dialogsTextFgService: yellow; // chat list group sender name text (or media message type text)
+dialogsTextFg: bg2; // chat list message text
+dialogsTextFgService: bg2; // chat list group sender name text (or media message type text)
 dialogsRippleBg: windowBgRipple; // chat list ripple effect (on mouse down)
 dialogsUnreadBg: red; // chat list unread badge background for not muted chat
 dialogsUnreadBgMuted: gray; // chat list unread badge background for muted chat
@@ -150,12 +152,12 @@ boxTitleCloseFg: smallCloseIconFg; // settings close icon and box search cancel 
 boxTitleCloseFgOver: smallCloseIconFgOver; // settings close icon and box search cancel icon (like in contacts box) with mouse over
 
 msgInBg: bg0_h; // inbox message background
-msgInDateFg: gray; // inbox message time text
+msgInDateFg: bg2; // inbox message time text
 msgInShadow: windowShadowFg; // inbox message shadow (below the bubble)
 msgInMonoFg: green; // inbox message monospace text (like a message sent with `test` text)
 
 msgOutBg: bg0_h; // outbox message background
-msgOutDateFg: gray; // outbox message time text
+msgOutDateFg: bg2; // outbox message time text
 msgOutShadow: windowShadowFg; // outbox message shadow (below the bubble)
 msgOutMonoFg: green; // outbox message monospace text
 
