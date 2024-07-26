@@ -1,30 +1,30 @@
-bg0_hard: #1d2021;
+bg0_hard: #101010;
 bg0:      #282828;
-bg0_soft: #32302f;
-bg1:      #3c3836;
-bg2:      #504945;
-bg3:      #665c54;
-bg4:      #7c6f64;
+bg0_soft: #282828;
+bg1:      #282828;
+bg2:      #282828;
+bg3:      #282828;
+bg4:      #282828;
 
 overlay: #1d202180;
 overlay_hard: #1d2021c0;
 
-neutral_gray: #928374;
+neutral_gray: #cc241d;
 
-fg:       #ebdbb2;
-fg0:      #fbf1c7;
-fg1:      #ebdbb2;
-fg2:      #d5c4a1;
-fg3:      #bdae93;
-fg4:      #a89984;
+fg:       #d79921;
+fg0:      #d79921;
+fg1:      #d79921;
+fg2:      #d79921;
+fg3:      #d79921;
+fg4:      #d79921;
 
-bright_red:     #fb4934;
-bright_green:   #b8bb26;
-bright_yellow:  #fabd2f;
-bright_blue:    #83a598;
-bright_purple:  #d3869b;
-bright_aqua:    #8ec07c;
-bright_orange:  #fe8019;
+bright_red:    #cc241d;
+bright_green:  #98971a;
+bright_yellow: #d79921;
+bright_blue:   #458588;
+bright_purple: #b16286;
+bright_aqua:   #689d6a;
+bright_orange: #d65d0e;
 
 neutral_red:    #cc241d;
 neutral_green:  #98971a;
@@ -34,31 +34,31 @@ neutral_purple: #b16286;
 neutral_aqua:   #689d6a;
 neutral_orange: #d65d0e;
 
-faded_red:      #9d0006;
-faded_green:    #79740e;
-faded_yellow:   #b57614;
-faded_blue:     #076678;
-faded_purple:   #8f3f71;
-faded_aqua:     #427b58;
-faded_orange:   #af3a03;
+faded_red:    #cc241d;
+faded_green:  #98971a;
+faded_yellow: #d79921;
+faded_blue:   #458588;
+faded_purple: #b16286;
+faded_aqua:   #689d6a;
+faded_orange: #d65d0e;
 
 // sainnhe/gruvbox-material
 
-mix_red:    #f2594b;
-mix_green:  #b0b846;
-mix_yellow: #e9b143;
-mix_blue:   #80aa9e;
-mix_purple: #d3869b;
-mix_aqua:   #8bba7f;
-mix_orange: #f28534;
+mix_red:    #cc241d;
+mix_green:  #98971a;
+mix_yellow: #d79921;
+mix_blue:   #458588;
+mix_purple: #b16286;
+mix_aqua:   #689d6a;
+mix_orange: #d65d0e;
 
-material_red:    #ea6962;
-material_green:  #b0b846;
-material_yellow: #d8a657;
-material_blue:   #7daea3;
-material_purple: #d3869b;
-material_aqua:   #89b482;
-material_orange: #e78a4e;
+material_red:    #cc241d;
+material_green:  #98971a;
+material_yellow: #d79921;
+material_blue:   #458588;
+material_purple: #b16286;
+material_aqua:   #689d6a;
+material_orange: #d65d0e;
 
 none: #00000000;
 
