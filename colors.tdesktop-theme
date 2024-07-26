@@ -7,11 +7,6 @@ overlay_hard: #1d2021c0;
 neutral_gray: #282828;
 
 fg:       #d78701;
-fg0:      #d78701;
-fg1:      #d78701;
-fg2:      #d78701;
-fg3:      #d78701;
-fg4:      #d78701;
 
 red:    #cc241d;
 green:  #98971a;
@@ -35,7 +30,7 @@ windowBoldFg: windowFg; // fallback for bold text
 windowBoldFgOver: windowBoldFg; // fallback for bold text with mouse over
 windowShadowFg: none; // fallback for shadow
 windowShadowFgFallback: none; // fallback for shadow without opacity
-windowSubTextFg: fg4; // fallback for additional text
+windowSubTextFg: fg; // fallback for additional text
 windowSubTextFgOver: windowSubTextFg; // fallback for additional text with mouse over
 
 shadowFg: windowBg;
@@ -48,14 +43,14 @@ scrollBgOver: none; // default scroll bar background with mouse over the scroll 
 mainMenuBg: windowBg; // main menu background
 mainMenuCoverBg: bg0_h; // main menu top cover background
 mainMenuCoverFg: windowFg; // main menu top cover text
-mainMenuCloudFg: fg0; // 
-mainMenuCloudBg: fg4; // 
+mainMenuCloudFg: fg; // 
+mainMenuCloudBg: fg; // 
 
 menuBg: windowBg; // default popup menu background
 menuBgOver: windowBgOver; // default popup menu item background with mouse over
 menuBgRipple: windowBgRipple; // default popup menu item ripple effect
 menuIconFg: neutral_gray; // default popup menu item icon (like main menu)
-menuIconFgOver: fg3; // default popup menu item icon with mouse over
+menuIconFgOver: fg; // default popup menu item icon with mouse over
 menuSubmenuArrowFg: windowFg; // default popup menu submenu arrow icon (like in message field context menu in case of RTL system language)
 menuFgDisabled: bg0_h; // default popup menu item disabled text (like unavailable items in message field context menu)
 menuSeparatorFg: bg0_h; // default popup menu separator (like in message field context menu)
@@ -65,7 +60,7 @@ smallCloseIconFgOver: menuIconFgOver; // small X icon with mouse over
 
 checkboxFg: menuIconFg; // default unchecked checkbox rounded rectangle (and also emoji category icons)
 
-activeLineFg: fg2; // default active line (like code input field bottom border when you log in and field is focused)
+activeLineFg: fg; // default active line (like code input field bottom border when you log in and field is focused)
 activeLineFgError: red; // default active line for error state (like code input field bottom border when you log in and you've entered incorrect code)
 inputBorderFg: bg0_h; // default input field bottom border (like in code input field when you log in and field is not focused)
 placeholderFg: neutral_gray; // default input field placeholder when field is not focused (like in phone input field when you log in)
@@ -79,11 +74,11 @@ activeButtonBgOver: orange; // default active button background with mouse over
 activeButtonBgRipple: windowBgRipple; // default active button ripple effect
 activeButtonFg: bg; // default active button text
 activeButtonFgOver: activeButtonFg; // default active button text with mouse over
-activeButtonSecondaryFg: fg3; // default active button additional text (selected messages counter in forward / delete buttons)
+activeButtonSecondaryFg: fg; // default active button additional text (selected messages counter in forward / delete buttons)
 activeButtonSecondaryFgOver: activeButtonSecondaryFg; // default active button additional text with mouse over
 lightButtonBg: menuBg; // default light button background (like buttons in boxes)
 lightButtonBgOver: menuBgOver; // default light button background with mouse over
-lightButtonFg: fg1; // default light button text
+lightButtonFg: fg; // default light button text
 lightButtonFgOver: lightButtonFg; // default light button text with mouse over
 lightButtonBgRipple: windowBgRipple; // default light button ripple effect
 attentionButtonFg: red; // default attention button text (like confirm button on log out)
@@ -107,8 +102,8 @@ sliderBgActive: windowActiveTextFg; // default slider active bar (like in Settin
 
 dialogsBg: windowBg; // chat list background
 dialogsDateFg: neutral_gray; // chat list date text
-dialogsNameFg: fg1; // chat list name text
-dialogsTextFg: fg4; // chat list message text
+dialogsNameFg: fg; // chat list name text
+dialogsTextFg: fg; // chat list message text
 dialogsTextFgService: yellow; // chat list group sender name text (or media message type text)
 dialogsRippleBg: windowBgRipple; // chat list ripple effect (on mouse down)
 dialogsUnreadBg: red; // chat list unread badge background for not muted chat
@@ -151,7 +146,7 @@ boxTextFgGood: green; // accepted box text (like when choosing username that is 
 boxTextFgError: red; // rejecting box text (like when choosing username that is occupied)
 boxTitleFg: windowFg; // box title text
 boxSearchBg: filterInputInactiveBg; // box search field background (like in contacts box)
-boxTitleAdditionalFg: fg4; // box title additional text (like in create group box when you see chosen members count)
+boxTitleAdditionalFg: fg; // box title additional text (like in create group box when you see chosen members count)
 boxTitleCloseFg: smallCloseIconFg; // settings close icon and box search cancel icon (like in contacts box)
 boxTitleCloseFgOver: smallCloseIconFgOver; // settings close icon and box search cancel icon (like in contacts box) with mouse over
 
@@ -165,7 +160,7 @@ msgOutDateFg: neutral_gray; // outbox message time text
 msgOutShadow: windowShadowFg; // outbox message shadow (below the bubble)
 msgOutMonoFg: green; // outbox message monospace text
 
-msgServiceFg: fg1; // service message text (like date dividers or service message about the group title being changed)
+msgServiceFg: fg; // service message text (like date dividers or service message about the group title being changed)
 msgServiceBg: bg0_h; // service message background (like in a service message about group title being changed) (adjusted)
 msgInServiceFg: orange; // inbox message information text (like information about a forwarded message original sender)
 msgOutServiceFg: msgInServiceFg; // outbox message information text (like information about a forwarded message original sender)
@@ -242,7 +237,7 @@ historyPeer2NameFg: green; // green group member name
 historyPeer2UserpicBg: green; // green userpic background
 historyPeer3NameFg: yellow; // yellow group member name
 historyPeer3UserpicBg: yellow; // yellow userpic background
-historyPeer4NameFg: fg4; // blue group member name
+historyPeer4NameFg: fg; // blue group member name
 historyPeer4UserpicBg: neutral_gray; // blue userpic background
 historyPeer5NameFg: purple; // purple group member name
 historyPeer5UserpicBg: purple; // purple userpic background
@@ -252,7 +247,7 @@ historyPeer7NameFg: aqua; // aqua group member name
 historyPeer7UserpicBg: aqua; // aqua userpic background
 historyPeer8NameFg: orange; // orange group member name
 historyPeer8UserpicBg: orange; // orange userpic background
-historyPeerUserpicFg: fg0; // default userpic initials
+historyPeerUserpicFg: fg; // default userpic initials
 
 historyPinnedBg: msgInBg; // pinned message area background
 
@@ -288,11 +283,11 @@ historyToDownShadow: #00000040; // arrow button shadow
 historyFileNameInFg: historyTextInFg; // inbox media filename text
 historyFileNameOutFg: historyTextOutFg; // outbox media filename text
 
-historyFileInIconFg: fg1; // inbox file without thumbnail (like audio file) download arrow icon
+historyFileInIconFg: fg; // inbox file without thumbnail (like audio file) download arrow icon
 historyFileInRadialFg: historyFileInIconFg; // inbox file without thumbnail (like audio file) radial download animation line
-historyFileOutIconFg: fg1; // outbox file without thumbnail (like audio file) download arrow icon
+historyFileOutIconFg: fg; // outbox file without thumbnail (like audio file) download arrow icon
 historyFileOutRadialFg: historyFileOutIconFg; // outbox file without thumbnail (like audio file) radial download animation line
-historyFileThumbIconFg: fg1; // file with thumbnail (or photo / video) download arrow icon
+historyFileThumbIconFg: fg; // file with thumbnail (or photo / video) download arrow icon
 historyFileThumbRadialFg: historyFileThumbIconFg; // file with thumbnail (or photo / video) radial download animation line
 
 historyTextInFgSelected: windowFg; // inbox message text
@@ -349,7 +344,7 @@ titleButtonFgActiveOver: titleButtonFgOver; // custom window title minimize/maxi
 titleButtonCloseBgActiveOver: titleButtonCloseBgOver; // custom window title close button background with mouse over when window is active (Windows only)
 titleButtonCloseFgActiveOver: titleButtonCloseFgOver; // custom window title close button icon with mouse over when window is active (Windows only)
 
-sideBarTextFg: fg4; // filters side bar text
+sideBarTextFg: fg; // filters side bar text
 sideBarBg: bg; // filters side bar background
 sideBarBgRipple: windowBgRipple; // filters side bar ripple effect
 sideBarIconFg: menuIconFg; // filters side bar icon
