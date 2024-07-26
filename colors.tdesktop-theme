@@ -9,22 +9,22 @@ bg4:      #282828;
 overlay: #1d202180;
 overlay_hard: #1d2021c0;
 
-neutral_gray: #cc241d;
+neutral_gray: #665c54;
 
-fg:       #d79921;
-fg0:      #d79921;
-fg1:      #d79921;
-fg2:      #d79921;
-fg3:      #d79921;
-fg4:      #d79921;
+fg:       #d78701;
+fg0:      #d78701;
+fg1:      #d78701;
+fg2:      #d78701;
+fg3:      #d78701;
+fg4:      #d78701;
 
 red:    #cc241d;
 green:  #98971a;
-yellow: #d79921;
+yellow: #d78701;
 blue:   #458588;
 purple: #b16286;
-aqua:   #689d6a;
-orange: #d65d0e;
+aqua:   #98971a;
+orange: #d78701;
 
 // sainnhe/gruvbox-material
 
@@ -84,7 +84,7 @@ filterInputActiveBg: filterInputInactiveBg; // default rounded input field activ
 activeButtonBg: orange; // default active button background
 activeButtonBgOver: orange; // default active button background with mouse over
 activeButtonBgRipple: windowBgRipple; // default active button ripple effect
-activeButtonFg: fg; // default active button text
+activeButtonFg: bg0_hard; // default active button text
 activeButtonFgOver: activeButtonFg; // default active button text with mouse over
 activeButtonSecondaryFg: fg3; // default active button additional text (selected messages counter in forward / delete buttons)
 activeButtonSecondaryFgOver: activeButtonSecondaryFg; // default active button additional text with mouse over
