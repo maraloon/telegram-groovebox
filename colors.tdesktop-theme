@@ -197,12 +197,12 @@ msgFile4BgOver: msgFile4Bg; // yellow shared files without image download circle
 
 msgDateImgBgOver: msgDateImgBg; // media message download icon circle background with mouse over (like file with thumbnail download icon)
 
-msgInBgSelected: bg0_h; // inbox selected message background (and background of selected text in those messages)
+msgInBgSelected: bg3; // inbox selected message background (and background of selected text in those messages)
 msgInDateFgSelected: windowFg; // inbox selected message time text
 msgInShadowSelected: windowShadowFg; // inbox selected message shadow (below the bubble)
 msgInMonoFgSelected: msgInMonoFg; // inbox message monospace text in a selected text or message
 
-msgOutBgSelected: bg0_h; // outbox selected message background (and background of selected text in those messages)
+msgOutBgSelected: bg3; // outbox selected message background (and background of selected text in those messages)
 msgOutDateFgSelected: windowFg; // outbox selected message time text
 msgOutShadowSelected: windowShadowFg; // outbox selected message shadow (below the bubble)
 msgOutMonoFgSelected: msgOutMonoFg; // outbox message monospace text in a selected text or message
