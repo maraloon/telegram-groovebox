@@ -2,6 +2,7 @@ bg: #101010;
 bg0_h: #1c1c1c;
 gray: #282828;
 bg2: #504945;
+bg3: #665c54;
 
 
 overlay: #1d202180;
@@ -12,6 +13,7 @@ fg:       #d78701;
 red:    #cc241d;
 green:  #98971a;
 yellow: #d78701;
+yellow2: #d79921;
 blue:   #458588;
 purple: #b16286;
 aqua:   #98971a;
@@ -24,7 +26,7 @@ windowBg: bg; // fallback for background
 windowBgActive: windowActiveTextFg; // fallback for filled active areas
 windowBgOver: bg0_h; // fallback for background with mouse over
 windowBgRipple: none; // fallback for ripple effect
-windowFg: fg; // fallback for text
+windowFg: yellow2; // fallback for text
 windowFgActive: bg0_h; // fallback for text on active areas
 windowFgOver: fg; // fallback for text with mouse over
 windowBoldFg: windowFg; // fallback for bold text
@@ -104,7 +106,7 @@ sliderBgActive: windowActiveTextFg; // default slider active bar (like in Settin
 dialogsBg: windowBg; // chat list background
 dialogsDateFg: bg2; // chat list date text
 dialogsNameFg: fg; // chat list name text
-dialogsTextFg: bg2; // chat list message text
+dialogsTextFg: yellow2; // chat list message text
 dialogsTextFgService: bg2; // chat list group sender name text (or media message type text)
 dialogsRippleBg: windowBgRipple; // chat list ripple effect (on mouse down)
 dialogsUnreadBg: red; // chat list unread badge background for not muted chat
