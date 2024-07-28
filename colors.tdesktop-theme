@@ -26,7 +26,7 @@ windowBg: bg; // fallback for background
 windowBgActive: windowActiveTextFg; // fallback for filled active areas
 windowBgOver: bg0_h; // fallback for background with mouse over
 windowBgRipple: none; // fallback for ripple effect
-windowFg: yellow2; // fallback for text
+windowFg: yellow; // fallback for text
 windowFgActive: bg0_h; // fallback for text on active areas
 windowFgOver: fg; // fallback for text with mouse over
 windowBoldFg: windowFg; // fallback for bold text
@@ -153,12 +153,12 @@ boxTitleAdditionalFg: fg; // box title additional text (like in create group box
 boxTitleCloseFg: smallCloseIconFg; // settings close icon and box search cancel icon (like in contacts box)
 boxTitleCloseFgOver: smallCloseIconFgOver; // settings close icon and box search cancel icon (like in contacts box) with mouse over
 
-msgInBg: bg0_h; // inbox message background
+msgInBg: bg; // inbox message background
 msgInDateFg: bg2; // inbox message time text
 msgInShadow: windowShadowFg; // inbox message shadow (below the bubble)
 msgInMonoFg: green; // inbox message monospace text (like a message sent with `test` text)
 
-msgOutBg: bg0_h; // outbox message background
+msgOutBg: bg; // outbox message background
 msgOutDateFg: bg2; // outbox message time text
 msgOutShadow: windowShadowFg; // outbox message shadow (below the bubble)
 msgOutMonoFg: green; // outbox message monospace text
