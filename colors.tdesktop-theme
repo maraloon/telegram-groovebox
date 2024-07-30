@@ -1,9 +1,8 @@
 bg: #101010;
 bg0_h: #1c1c1c;
-gray: #282828;
+bg0: #282828;
 bg2: #504945;
 bg3: #665c54;
-
 
 overlay: #1d202180;
 overlay_hard: #1d2021c0;
@@ -52,7 +51,7 @@ mainMenuCloudBg: fg; //
 menuBg: windowBg; // default popup menu background
 menuBgOver: windowBgOver; // default popup menu item background with mouse over
 menuBgRipple: windowBgRipple; // default popup menu item ripple effect
-menuIconFg: gray; // default popup menu item icon (like main menu)
+menuIconFg: bg0; // default popup menu item icon (like main menu)
 menuIconFgOver: fg; // default popup menu item icon with mouse over
 menuSubmenuArrowFg: windowFg; // default popup menu submenu arrow icon (like in message field context menu in case of RTL system language)
 menuFgDisabled: bg0_h; // default popup menu item disabled text (like unavailable items in message field context menu)
@@ -66,9 +65,9 @@ checkboxFg: menuIconFg; // default unchecked checkbox rounded rectangle (and als
 activeLineFg: fg; // default active line (like code input field bottom border when you log in and field is focused)
 activeLineFgError: red; // default active line for error state (like code input field bottom border when you log in and you've entered incorrect code)
 inputBorderFg: bg0_h; // default input field bottom border (like in code input field when you log in and field is not focused)
-placeholderFg: gray; // default input field placeholder when field is not focused (like in phone input field when you log in)
-placeholderFgActive: gray; // default input field placeholder when field is focused
-filterInputBorderFg: gray; // default rounded input field border (like in chats list search field when field is focused)
+placeholderFg: bg0; // default input field placeholder when field is not focused (like in phone input field when you log in)
+placeholderFgActive: bg0; // default input field placeholder when field is focused
+filterInputBorderFg: bg0; // default rounded input field border (like in chats list search field when field is focused)
 filterInputInactiveBg: bg0_h; // default rounded input field background (like in chats list search field when field is inactive)
 filterInputActiveBg: filterInputInactiveBg; // default rounded input field active background (like in chats list search field when field is focused)
 
@@ -110,10 +109,10 @@ dialogsTextFg: yellow2; // chat list message text
 dialogsTextFgService: bg2; // chat list group sender name text (or media message type text)
 dialogsRippleBg: windowBgRipple; // chat list ripple effect (on mouse down)
 dialogsUnreadBg: red; // chat list unread badge background for not muted chat
-dialogsUnreadBgMuted: gray; // chat list unread badge background for muted chat
+dialogsUnreadBgMuted: bg0; // chat list unread badge background for muted chat
 dialogsUnreadFg: fg; // chat list unread badge text
 dialogsDraftFg: red; // chat list draft label
-dialogsSendingIconFg: gray; // chat list sending message icon (clock)
+dialogsSendingIconFg: bg0; // chat list sending message icon (clock)
 dialogsSentIconFg: yellow; // chat list sent message tick / double tick icon
 dialogsOnlineBadgeFg: green; // chat list online status
 
@@ -241,7 +240,7 @@ historyPeer2UserpicBg: green; // green userpic background
 historyPeer3NameFg: yellow; // yellow group member name
 historyPeer3UserpicBg: yellow; // yellow userpic background
 historyPeer4NameFg: fg; // blue group member name
-historyPeer4UserpicBg: gray; // blue userpic background
+historyPeer4UserpicBg: bg0; // blue userpic background
 historyPeer5NameFg: purple; // purple group member name
 historyPeer5UserpicBg: purple; // purple userpic background
 historyPeer6NameFg: blue; // pink group member name
@@ -363,7 +362,7 @@ statisticsChartLineBlue: red; // syntax highlight: atrule, attr-value, keyword, 
 statisticsChartLineRed: purple; // syntax highlight: property, tag, boolean, number, constant, symbol, deleted, operator, entity, url, punctuation
 statisticsChartLineOrange: yellow; // syntax highlight: selector, attr-name, string, char, builtin, inserted
 statisticsChartLinePurple: orange; // syntax highlight: class-name
-statisticsChartLineLightblue: gray; // syntax highlight: comment, block-comment, prolog, doctype, cdata
+statisticsChartLineLightblue: bg0; // syntax highlight: comment, block-comment, prolog, doctype, cdata
 
 statisticsChartLineGreen: green; // syntax highlight: none
 statisticsChartLineLightgreen: green; // syntax highlight: none
