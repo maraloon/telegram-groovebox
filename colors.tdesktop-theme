@@ -67,7 +67,7 @@ activeLineFg: fg; // default active line (like code input field bottom border wh
 activeLineFgError: red; // default active line for error state (like code input field bottom border when you log in and you've entered incorrect code)
 inputBorderFg: bg0_h; // default input field bottom border (like in code input field when you log in and field is not focused)
 placeholderFg: gray; // default input field placeholder when field is not focused (like in phone input field when you log in)
-placeholderFgActive: bg0_h; // default input field placeholder when field is focused
+placeholderFgActive: gray; // default input field placeholder when field is focused
 filterInputBorderFg: gray; // default rounded input field border (like in chats list search field when field is focused)
 filterInputInactiveBg: bg0_h; // default rounded input field background (like in chats list search field when field is inactive)
 filterInputActiveBg: filterInputInactiveBg; // default rounded input field active background (like in chats list search field when field is focused)
