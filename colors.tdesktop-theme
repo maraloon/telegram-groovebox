@@ -359,11 +359,11 @@ sideBarTextFg: sideBarTextFg; // filters side bar text
 sideBarTextFgActive: windowActiveTextFg; // filters side bar active item text
 sideBarIconFgActive: windowActiveTextFg; // filters side bar active item icon
 
-statisticsChartLineBlue: red; // syntax highlight: atrule, attr-value, keyword, function
-statisticsChartLineRed: purple; // syntax highlight: property, tag, boolean, number, constant, symbol, deleted, operator, entity, url, punctuation
-statisticsChartLineOrange: yellow; // syntax highlight: selector, attr-name, string, char, builtin, inserted
-statisticsChartLinePurple: orange; // syntax highlight: class-name
-statisticsChartLineLightblue: bg0; // syntax highlight: comment, block-comment, prolog, doctype, cdata
+statisticsChartLineBlue: blue; // syntax highlight: atrule, attr-value, keyword, function
+statisticsChartLineRed: red; // syntax highlight: property, tag, boolean, number, constant, symbol, deleted, operator, entity, url, punctuation
+statisticsChartLineOrange: green; // syntax highlight: selector, attr-name, string, char, builtin, inserted
+statisticsChartLinePurple: yellow; // syntax highlight: class-name
+statisticsChartLineLightblue: bg2; // syntax highlight: comment, block-comment, prolog, doctype, cdata
 
 statisticsChartLineGreen: green; // syntax highlight: none
 statisticsChartLineLightgreen: green; // syntax highlight: none
