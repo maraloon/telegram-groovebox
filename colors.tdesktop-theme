@@ -1,6 +1,7 @@
 bg: #101010;
 bg0_h: #1c1c1c;
 bg0: #282828;
+bg1: #3c3836;
 bg2: #504945;
 bg3: #665c54;
 
@@ -12,7 +13,6 @@ fg:       #d78701;
 red:    #cc241d;
 green:  #98971a;
 yellow: #d78701;
-yellow2: #d79921;
 blue:   #458588;
 purple: #b16286;
 aqua:   #689d6a;
@@ -105,7 +105,7 @@ sliderBgActive: windowActiveTextFg; // default slider active bar (like in Settin
 dialogsBg: windowBg; // chat list background
 dialogsDateFg: bg2; // chat list date text
 dialogsNameFg: fg; // chat list name text
-dialogsTextFg: yellow2; // chat list message text
+dialogsTextFg: bg2; // chat list message text
 dialogsTextFgService: bg2; // chat list group sender name text (or media message type text)
 dialogsRippleBg: windowBgRipple; // chat list ripple effect (on mouse down)
 dialogsUnreadBg: red; // chat list unread badge background for not muted chat
