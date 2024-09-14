@@ -113,7 +113,7 @@ dialogsUnreadBgMuted: bg0; // chat list unread badge background for muted chat
 dialogsUnreadFg: fg; // chat list unread badge text
 dialogsDraftFg: red; // chat list draft label
 dialogsSendingIconFg: bg0; // chat list sending message icon (clock)
-dialogsSentIconFg: yellow; // chat list sent message tick / double tick icon
+dialogsSentIconFg: green; // chat list sent message tick / double tick icon
 dialogsOnlineBadgeFg: green; // chat list online status
 
 dialogsBgOver: windowBgOver; // chat list background with mouse over
@@ -164,7 +164,7 @@ msgOutMonoFg: green; // outbox message monospace text
 
 msgServiceFg: fg; // service message text (like date dividers or service message about the group title being changed)
 msgServiceBg: bg0_h; // service message background (like in a service message about group title being changed) (adjusted)
-msgInServiceFg: yellow; // inbox message information text (like information about a forwarded message original sender)
+msgInServiceFg: aqua; // inbox message information text (like information about a forwarded message original sender)
 msgOutServiceFg: msgInServiceFg; // outbox message information text (like information about a forwarded message original sender)
 msgInReplyBarColor: msgInServiceFg; // inbox message reply outline
 msgOutReplyBarColor: msgOutServiceFg; // outbox message reply outline
@@ -233,22 +233,22 @@ historyCallArrowInFg: callArrowFg; // received phone call arrow
 historyCallArrowMissedInFg: callArrowMissedFg; // missed phone call arrow
 historyCallArrowOutFg: historyTextInFg; // outgoing phone call arrow
 
-historyPeer1NameFg: yellow; // red group member name
-historyPeer1UserpicBg: yellow; // red userpic background
-historyPeer2NameFg: yellow; // green group member name
-historyPeer2UserpicBg: yellow; // green userpic background
-historyPeer3NameFg: yellow; // yellow group member name
-historyPeer3UserpicBg: yellow; // yellow userpic background
-historyPeer4NameFg: yellow; // blue group member name
-historyPeer4UserpicBg: yellow; // blue userpic background
-historyPeer5NameFg: yellow; // purple group member name
-historyPeer5UserpicBg: yellow; // purple userpic background
-historyPeer6NameFg: yellow; // pink group member name
-historyPeer6UserpicBg: yellow; // pink userpic background
-historyPeer7NameFg: yellow; // aqua group member name
-historyPeer7UserpicBg: yellow; // aqua userpic background
-historyPeer8NameFg: yellow; // orange group member name
-historyPeer8UserpicBg: yellow; // orange userpic background
+historyPeer1NameFg: green; // red group member name
+historyPeer1UserpicBg: green; // red userpic background
+historyPeer2NameFg: green; // green group member name
+historyPeer2UserpicBg: green; // green userpic background
+historyPeer3NameFg: green; // yellow group member name
+historyPeer3UserpicBg: green; // yellow userpic background
+historyPeer4NameFg: green; // blue group member name
+historyPeer4UserpicBg: green; // blue userpic background
+historyPeer5NameFg: green; // purple group member name
+historyPeer5UserpicBg: green; // purple userpic background
+historyPeer6NameFg: green; // pink group member name
+historyPeer6UserpicBg: green; // pink userpic background
+historyPeer7NameFg: green; // aqua group member name
+historyPeer7UserpicBg: green; // aqua userpic background
+historyPeer8NameFg: green; // orange group member name
+historyPeer8UserpicBg: green; // orange userpic background
 
 historyPeerUserpicFg: bg; // default userpic initials
 
