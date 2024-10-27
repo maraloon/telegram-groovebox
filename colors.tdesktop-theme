@@ -11,11 +11,11 @@ overlay_hard: #1d2021c0;
 fg: #d78701;
 
 red:    #cc241d;
-green:  #98971a;
+green:  #b8971a;
 yellow: #d78701;
-blue:   #458588;
+blue:   #62b762;
 purple: #b16286;
-aqua:   #689d6a;
+aqua:   #62b762;
 orange: #d65d0e;
 
 none: #00000000;
