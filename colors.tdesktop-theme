@@ -13,9 +13,9 @@ fg: #d78701;
 red:    #cc241d;
 green:  #b8971a;
 yellow: #d78701;
-blue:   #62b762;
+blue:   #55c955;
 purple: #b16286;
-aqua:   #62b762;
+aqua:   #55c955;
 orange: #d65d0e;
 
 none: #00000000;
