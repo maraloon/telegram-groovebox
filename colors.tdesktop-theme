@@ -10,12 +10,12 @@ overlay_hard: #1d2021c0;
 
 fg: #d78701;
 
-red:    #cc241d;
+red:    #fe4700;
 green:  #b8971a;
 yellow: #d78701;
-blue:   #55c955;
+blue:   #689d6a;
 purple: #b16286;
-aqua:   #55c955;
+aqua:   #689d6a;
 orange: #d65d0e;
 
 none: #00000000;
@@ -359,14 +359,8 @@ sideBarTextFg: sideBarTextFg; // filters side bar text
 sideBarTextFgActive: windowActiveTextFg; // filters side bar active item text
 sideBarIconFgActive: windowActiveTextFg; // filters side bar active item icon
 
-statisticsChartLineBlue: blue; // syntax highlight: atrule, attr-value, keyword, function
+statisticsChartLineBlue: purple; // syntax highlight: atrule, attr-value, keyword, function
 statisticsChartLineRed: red; // syntax highlight: property, tag, boolean, number, constant, symbol, deleted, operator, entity, url, punctuation
-statisticsChartLineOrange: green; // syntax highlight: selector, attr-name, string, char, builtin, inserted
+statisticsChartLineOrange: yellow; // syntax highlight: selector, attr-name, string, char, builtin, inserted
 statisticsChartLinePurple: yellow; // syntax highlight: class-name
 statisticsChartLineLightblue: bg2; // syntax highlight: comment, block-comment, prolog, doctype, cdata
-
-statisticsChartLineGreen: green; // syntax highlight: none
-statisticsChartLineLightgreen: green; // syntax highlight: none
-statisticsChartLineGolden: yellow; // syntax highlight: none
-statisticsChartLineIndigo: purple; // syntax highlight: none
-statisticsChartLineCyan: aqua; // syntax highlight: none
