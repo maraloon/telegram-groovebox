@@ -1,5 +1,5 @@
-bg: #000000;
-bg0_h: #191919;
+bg: #ffffea;
+bg0_h: #aeeeee;
 bg0: #282828;
 bg1: #3c3836;
 bg2: #504945;
@@ -8,17 +8,18 @@ bg3: #665c54;
 overlay: #1d202180;
 overlay_hard: #1d2021c0;
 
-fg: #d78700;
+fg: #000000;
 
 red:    #fe4700;
-green:  #b8971a;
-yellow: #d78700;
-blue:   #689d6a;
+green:  #cccc7c;
+yellow: #000000;
+blue:   #aeeeee;
 purple: #b16286;
-aqua:   #689d6a;
+aqua:   #aeeeee;
 orange: #d65d0e;
 
 none: #00000000;
+white: #ffffea;
 
 windowActiveTextFg: yellow; // fallback for active text like online status
 windowBg: bg; // fallback for background
