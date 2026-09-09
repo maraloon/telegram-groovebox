@@ -10,9 +10,10 @@ overlay_hard: #1d2021c0;
 
 fg: #d78700;
 
-red:    #fe4700;
+red:    #cc3d1d;
 green:  #c8971a;
 yellow: #d78700;
+bronze: #533b0c;
 blue:   #689d6a;
 purple: #b16286;
 aqua:   #689d6a;
@@ -233,22 +234,24 @@ historyCallArrowInFg: callArrowFg; // received phone call arrow
 historyCallArrowMissedInFg: callArrowMissedFg; // missed phone call arrow
 historyCallArrowOutFg: historyTextInFg; // outgoing phone call arrow
 
-historyPeer1NameFg: green; // red group member name
-historyPeer1UserpicBg: green; // red userpic background
-historyPeer2NameFg: green; // green group member name
-historyPeer2UserpicBg: green; // green userpic background
-historyPeer3NameFg: green; // yellow group member name
-historyPeer3UserpicBg: green; // yellow userpic background
-historyPeer4NameFg: green; // blue group member name
-historyPeer4UserpicBg: green; // blue userpic background
-historyPeer5NameFg: green; // purple group member name
-historyPeer5UserpicBg: green; // purple userpic background
-historyPeer6NameFg: green; // pink group member name
-historyPeer6UserpicBg: green; // pink userpic background
-historyPeer7NameFg: green; // aqua group member name
-historyPeer7UserpicBg: green; // aqua userpic background
-historyPeer8NameFg: green; // orange group member name
-historyPeer8UserpicBg: green; // orange userpic background
+historyPeerUserpic:   bronze;
+historyPeerName:   green;
+historyPeer1NameFg: historyPeerName; // red group member name
+historyPeer1UserpicBg: historyPeerUserpic; // red userpic background
+historyPeer2NameFg: historyPeerName; // green group member name
+historyPeer2UserpicBg: historyPeerUserpic; // green userpic background
+historyPeer3NameFg: historyPeerName; // yellow group member name
+historyPeer3UserpicBg: historyPeerUserpic; // yellow userpic background
+historyPeer4NameFg: historyPeerName; // blue group member name
+historyPeer4UserpicBg: historyPeerUserpic; // blue userpic background
+historyPeer5NameFg: historyPeerName; // purple group member name
+historyPeer5UserpicBg: historyPeerUserpic; // purple userpic background
+historyPeer6NameFg: historyPeerName; // pink group member name
+historyPeer6UserpicBg: historyPeerUserpic; // pink userpic background
+historyPeer7NameFg: historyPeerName; // aqua group member name
+historyPeer7UserpicBg: historyPeerUserpic; // aqua userpic background
+historyPeer8NameFg: historyPeerName; // orange group member name
+historyPeer8UserpicBg: historyPeerUserpic; // orange userpic background
 
 historyPeerUserpicFg: bg; // default userpic initials
 
