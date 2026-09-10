@@ -14,9 +14,9 @@ red:    #cc3d1d;
 green:  #c8971a;
 yellow: #d78700;
 bronze: #533b0c;
-blue:   #689d6a;
+blue:   #0000ff;
 purple: #b16286;
-aqua:   #689d6a;
+aqua:   #0000ff;
 orange: #d65d0e;
 
 none: #00000000;
@@ -165,7 +165,7 @@ msgOutMonoFg: green; // outbox message monospace text
 
 msgServiceFg: fg; // service message text (like date dividers or service message about the group title being changed)
 msgServiceBg: bg0_h; // service message background (like in a service message about group title being changed) (adjusted)
-msgInServiceFg: aqua; // inbox message information text (like information about a forwarded message original sender)
+msgInServiceFg: yellow; // inbox message information text (like information about a forwarded message original sender)
 msgOutServiceFg: msgInServiceFg; // outbox message information text (like information about a forwarded message original sender)
 msgInReplyBarColor: msgInServiceFg; // inbox message reply outline
 msgOutReplyBarColor: msgOutServiceFg; // outbox message reply outline
@@ -372,4 +372,5 @@ statisticsChartLineLightblue: bg2; // syntax highlight: comment, block-comment, 
 paymentTipActive: green;
 youtubePlayIconBg: yellow;
 rankAdminFg: green;
-rankOwnerFg: purple;
+rankOwnerFg: red;
+premiumButtonFg: yellow;
