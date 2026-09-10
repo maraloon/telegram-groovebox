@@ -367,3 +367,9 @@ statisticsChartLineRed: red; // syntax highlight: property, tag, boolean, number
 statisticsChartLineOrange: yellow; // syntax highlight: selector, attr-name, string, char, builtin, inserted
 statisticsChartLinePurple: yellow; // syntax highlight: class-name
 statisticsChartLineLightblue: bg2; // syntax highlight: comment, block-comment, prolog, doctype, cdata
+
+
+paymentTipActive: green;
+youtubePlayIconBg: yellow;
+rankAdminFg: green;
+rankOwnerFg: purple;
