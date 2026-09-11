@@ -370,7 +370,7 @@ statisticsChartLineLightblue: bg2; // syntax highlight: comment, block-comment, 
 
 
 paymentTipActive: green;
-youtubePlayIconBg: yellow;
+youtubePlayIconBg: red;
 rankAdminFg: green;
 rankOwnerFg: red;
 premiumButtonFg: yellow;
